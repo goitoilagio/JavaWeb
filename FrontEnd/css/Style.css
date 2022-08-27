@@ -21,8 +21,9 @@
 .nav-item {
     padding: 0px 10px;
 }
-.video{
-    width:100%;
+
+.video {
+    width: 100%;
 }
 
 
@@ -33,4 +34,53 @@
 
 .nav-link:hover {
     color: #deb529 !important;
+}
+
+.video-introduce {
+    position: relative;
+}
+
+.text-introduce {
+    position: absolute;
+    top: 30%;
+    left: 29%;
+}
+
+.text-introduce>h2 {
+    text-shadow: 4px 4px 4px black;
+    color: white;
+    font-size: 64px;
+}
+
+.text-introduce>p {
+    text-align: center;
+    color: #deb529 !important;
+    text-shadow: 4px 4px 4px black;
+    font-size: 22px;
+}
+
+/* css button */
+.button-introduce {
+    text-align: center;
+}
+
+.button-introduce>button {
+    font-size: 20px;
+    box-shadow: 4px 4px 6px black;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 30px;
+    text-align: center;
+    transition: 0.3s all;
+}
+.button-introduce>button:hover{
+    background-color: #deb529 !important;
+    border:1px solid #deb529 !important;
+}
+
+@media (min-width: 768px) {
+    .button-59 {
+        min-width: 170px;
+    }
 }
