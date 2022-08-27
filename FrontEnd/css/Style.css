@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+.navbar-brand {
+    padding-right: 263px;
+}
+
+.navbar-brand>img {
+    height: 46px;
+}
+
+.navbar {
+    padding: 4px 16%;
+    background-color: #111;
+}
+
+.nav-item {
+    padding: 0px 10px;
+}
+.video{
+    width:100%;
+}
+
+
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #deb529 !important;
+}
